@@ -1,0 +1,20 @@
+@media screen and (min-width: 1000px) {
+    .image-realisations {
+        background-image: url(../assets/banner.jpg);
+        height: 200px;
+        background-size: cover;
+        background-position-y: 50%;
+   }
+}
+@media only screen and (max-width: 1000px) {
+    .image-realisations {
+        background-image: url(../assets/banner-mobile.jpg);
+        height: 150px;
+        background-size: cover;
+        background-position-x: 80%;
+   }
+}
+.card-footer p {
+    margin-bottom: 0;
+    padding: 0.5rem;
+}

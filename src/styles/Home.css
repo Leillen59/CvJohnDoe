@@ -1,0 +1,50 @@
+.btn-primary {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+@media only screen and (min-width: 1000px) {
+    .section-home {
+        background-image: url(../assets/hero-bg.jpg);
+        background-size: cover;
+   }
+}
+@media only screen and (max-width: 1000px) {
+    .section-home {
+        background-image: url(../assets/hero-bg-mobile.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position-x: 50%;
+   }
+}
+.section-home {
+    height: 100vh;
+    position: relative;
+}
+.section-home::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 60%;
+    z-index: 1;
+    background-color: black;
+}
+.section-home div .titre-home {
+    font-size: 2.7em;
+    text-align: center;
+    z-index: 2;
+    color: white;
+}
+.section-home div .titre-metier-home {
+    font-size: 1.5em;
+    text-align: center;
+    z-index: 2;
+    color: white;
+}
+.section-home div .bouton-savoir-plus-home {
+    z-index: 2;
+    width: 50%;
+}
+#a-propos .card-a-propos {
+    box-shadow: 0 0 10px #d7d7d7;
+}
